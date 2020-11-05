@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "centralus"
+        },
+        "networkInterfaceName": {
+            "value": "az16osvm4"
+        },
+        "networkSecurityGroupName": {
+            "value": "Az16osVM-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/efb06beb-8511-4a2c-8688-41931170e5ad/resourceGroups/DSC-AZ-OS-RG/providers/Microsoft.Network/virtualNetworks/DSC-AZ-OS-RG-vnet"
+        },
+        "virtualMachineName": {
+            "value": "Az16osVM"
+        },
+        "virtualMachineComputerName": {
+            "value": "Az16osVM"
+        },
+        "virtualMachineRG": {
+            "value": "DSC-AZ-OS-RG"
+        },
+        "osDiskType": {
+            "value": "Premium_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "winadmin"
+        },
+        "adminPassword": {
+            "value": "PASSword2016"
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        }
+    }
+}
